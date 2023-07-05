@@ -1,7 +1,4 @@
 /* Part 1 Exercise 5 
-*{
-    border: solid 1px black;
-}
 */
 
 html {
@@ -24,7 +21,7 @@ body {
 }
 
 /* Part 1 Exercise 2 */
-#plane{
+#dirigible {
     color: red;
     /* Part 1 Exercise 3 */
     color: #664b3d;
@@ -66,11 +63,13 @@ main {
 }
 
 .machine {
+    width: 30%;
     background-color: #ece4d9;
     border: solid 4px #664b3d;
     /* Part 1 Exercise 7 */
     margin: 0 1% 40px 1%;
     /* Part 1 Exercise 8 */
+    display: inline-block;
     vertical-align: top;
 }
 
